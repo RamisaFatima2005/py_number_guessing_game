@@ -17,7 +17,7 @@ while guesss_counter < chances:
     elif guesss_counter >= chances and my_guess != number_to_guess:
         print(f"Oops sorry, the number is {number_to_guess} Better Luck Next Time")
     elif my_guess < number_to_guess:
-        print("Your Guess is very Low!")
+        print("Your Guess is very Low, Try Again!")
 
     elif my_guess > number_to_guess:
-        print("Your Guess is very High!")
+        print("Your Guess is very High, Try Again!")
